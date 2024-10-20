@@ -1,0 +1,17 @@
+
+  __          __             _ __            __            __  
+ / /____ ____/ / _    ______(_) /____ ____  / /____  ___  / /__
+/ __/ -_) __/ _ \ |/|/ / __/ / __/ -_) __/ / __/ _ \/ _ \/ (_-<
+\__/\__/\__/_//_/__,__/_/ /_/\__/\__/_/    \__/\___/\___/_/___/
+Version 1.0
+
+Welcome to techwriter tools!
+
+This is a set of command-line tools for technical writers to automate
+the tedious parts of their job so they can focus on the fun parts.
+
+You can change or delete this message by editing or deleting
+~/welcome.txt.
+
+Learn more: https://github.com/marcpaq/techwritertools
+

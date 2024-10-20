@@ -1,0 +1,14 @@
+# ~/.bask_profile for login shells
+#
+
+# Set up interactive stuff if we're in an interactive, login shell
+case "$-" in
+*i*)	interactive=yes ;;
+esac
+if [ "$interactive" = "yes" ]; then
+	test -r ~/welcome.txt && cat ~/welcome.txt
+	if [ -f ~/.bashrc ]; then
+		. ~/.bashrc;
+	fi
+fi
+unset interactive

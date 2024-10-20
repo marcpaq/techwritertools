@@ -3,9 +3,8 @@
 TAG=egopontem/techwriter
 PLATFORMS=linux/amd64,linux/arm64
 
-
 build:
-	docker build --no-cache --tag $(TAG) --platform $(PLATFORMS) source
+	docker build --tag $(TAG) --platform $(PLATFORMS) source
 
 push:
 	docker push $(TAG)

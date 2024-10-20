@@ -16,9 +16,8 @@ RUN apk update \
     && apk add docs 
 
 # Show pretty colours in the terminal
-ENV TERM=xterm-color
-RUN ln /etc/profile.d/color_prompt.sh.disabled /etc/profile.d/color_prompt.sh
-# 
+ENV TERM=xterm-256color
+
 # Add a user named 'techwriter'
 RUN adduser -D techwriter
 
@@ -28,5 +27,9 @@ USER techwriter
 # Set the working directory to the home directory of the new user
 WORKDIR /home/techwriter
 
-# Set bash as the default shell
-CMD ["bash"]
+# Add our custom files
+ADD ./dotbashrc /home/techwriter/.bashrc
+ADD ./dotbash_profile /home/techwriter/.bash_profile
+ADD ./welcome.txt /home/techwriter/welcome.txt
+
+ENTRYPOINT ["/bin/bash", "--login"]
