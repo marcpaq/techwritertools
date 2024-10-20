@@ -28,8 +28,8 @@ USER techwriter
 WORKDIR /home/techwriter
 
 # Add our custom files
-ADD ./dotbashrc /home/techwriter/.bashrc
-ADD ./dotbash_profile /home/techwriter/.bash_profile
-ADD ./welcome.txt /home/techwriter/welcome.txt
+ADD --chown=techwriter:techwriter ./dotbashrc /home/techwriter/.bashrc
+ADD --chown=techwriter:techwriter ./dotbash_profile /home/techwriter/.bash_profile
+ADD --chown=techwriter:techwriter ./welcome.txt /home/techwriter/welcome.txt
 
 ENTRYPOINT ["/bin/bash", "--login"]

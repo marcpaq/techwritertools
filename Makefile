@@ -1,6 +1,6 @@
 .PHONY: help
 
-TAG=egopontem/techwriter
+TAG=egopontem/techwritertools
 PLATFORMS=linux/amd64,linux/arm64
 
 build:
