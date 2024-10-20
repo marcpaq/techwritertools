@@ -8,9 +8,9 @@ shopt -s histappend
 
 # Turn on the colours
 if [ "$TERM" = "xterm-color" ] || [ "$TERM" = "xterm-256color" ]; then
-	PS1='\[\e[36;1m\]\u\[\e[0m\]:\[\e[95;1m\]\W\[\e[0m\]\\$ '
+	PS1='\[\e[36;1m\]\u\[\e[0m\]:\[\e[95;1m\]\w\[\e[0m\]\\$ '
 	eval "$(dircolors -b)"
 	alias ls='ls --color=auto'
 else
-	PS1='\u:\W\\$ '
+	PS1='\u:\w\\$ '
 fi
