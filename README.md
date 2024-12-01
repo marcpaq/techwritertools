@@ -1,5 +1,7 @@
 # Tech Writer Tools
 
+![Tech Writer Tools logo and banner](./banner.png)
+
 Command line tools for technical writers.
 
 The tedious part of a tech writer's job is repeating. They copy and
