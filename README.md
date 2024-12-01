@@ -14,7 +14,7 @@ It runs on Linux, macOS, and Windows.
 
 ## Installation
 
-1. Install [Docker Desktop](https://docs.docker.com/engine/install/).
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
 ## Running Tech Writer Tools
 
