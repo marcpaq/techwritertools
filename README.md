@@ -28,8 +28,12 @@ It runs on Linux, macOS, and Windows.
    * macOS: Press Command-Space, search for `terminal`.
    * Windows: Press the Windows key, search for `terminal`.
 
-3. In the command line, enter this command:
+3. In the Terminal app's command line, enter this:
 
    ```
    docker run -it egopontem/techwritertools:latest
    ```
+
+You'll see something like this:
+
+![Screenshot of a Terminal application with Tech Writer Tools running](./techwritertools-start.png)
