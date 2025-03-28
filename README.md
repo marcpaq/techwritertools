@@ -1,6 +1,9 @@
 # Tech Writer Tools
 
-![Tech Writer Tools logo and banner](./banner.png)
+https://img.shields.io/github/license/marcpaq/techwritertools
+
+[![Tech Writer Tools logo and banner](./banner.png)](.LICENSE)
+
 
 Command line tools for technical writers.
 
