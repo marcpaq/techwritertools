@@ -1,6 +1,6 @@
 # Tech Writer Tools
 
-[![license](https://img.shields.io/github/license/marcpaq/techwritertools)](.LICENSE)
+[![license](https://img.shields.io/github/license/marcpaq/techwritertools)](./LICENSE)
 
 ![Tech Writer Tools logo and banner](./banner.png)
 
