@@ -8,7 +8,7 @@
                           | |/ _ \/ _ \ (_-<              
                           |_|\___/\___/_/__/              
 
-Version 1.0
+Version %VERSION%
 
 Welcome to Tech Writer Tools!
 
