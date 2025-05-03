@@ -9,12 +9,12 @@ VERSION := $(shell sh version.sh)
 test:
 	@echo $(VERSION)
 
-build:
+build:  $(SRC) $(WELCOME)
 	echo $(VERSION)
 	mkdir -p build
 	cp $(SRC) build
 	sed -e 's/%VERSION%/'"$(VERSION)"'/g' < "$(WELCOME)" > build/welcome.txt
-#	docker build --tag $(TAG) --platform $(PLATFORMS) build
+	docker build --tag $(TAG) --platform $(PLATFORMS) build
 
 push:	build
 	docker push $(TAG)

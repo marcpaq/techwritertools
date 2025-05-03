@@ -12,6 +12,7 @@ RUN apk update \
     && apk add bash \
     && apk add nano \
     && apk add less \
+    && apk add curl \
     && apk add coreutils \
     && apk add docs 
 

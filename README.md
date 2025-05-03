@@ -17,11 +17,11 @@ parts of their job so they can focus on the fun parts.
 
 It runs on Linux, macOS, and Windows.
 
-## Installation
+## Install
 
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
-## Running Tech Writer Tools
+## Run Tech Writer Tools
 
 1. Launch the Docker Desktop application.
 
@@ -34,7 +34,7 @@ It runs on Linux, macOS, and Windows.
 3. In the Terminal app's command line, enter this:
 
    ```
-   docker run -it egopontem/techwritertools:latest
+   docker run -it egopontem/techwritertools
    ```
 
 You'll see something like this:

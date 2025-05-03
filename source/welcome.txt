@@ -15,8 +15,5 @@ Welcome to Tech Writer Tools!
 This is a set of command-line tools for technical writers to automate
 the tedious parts of their job so they can focus on the fun parts.
 
-You can change or delete this message by editing or deleting
-~/welcome.txt.
-
 Learn more: https://github.com/marcpaq/techwritertools
 
